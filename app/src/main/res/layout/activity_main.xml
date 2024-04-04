@@ -14,6 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/marginMedium"
         android:hint="@string/editHint"
+        android:inputType="numberDecimal"
         android:textSize="@dimen/textSizeMedium" />
     <EditText
         android:id="@+id/edit2"
@@ -21,6 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/marginMedium"
         android:hint="@string/editHint"
+        android:inputType="numberDecimal"
         android:textSize="@dimen/textSizeMedium" />
 
     <Button
@@ -53,6 +55,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="@dimen/marginMedium"
         android:text="@string/btnDivide"
+        android:textSize="@dimen/textSizeMedium" />
+    <Button
+        android:id="@+id/btnMod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/marginMedium"
+        android:text="@string/btnMod"
         android:textSize="@dimen/textSizeMedium" />
     <TextView
         android:id="@+id/textResult"
